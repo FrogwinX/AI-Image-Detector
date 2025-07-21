@@ -1,2 +1,8 @@
 # AI-Image-Detector
-SEEM2460 Project
+This paper targets the problem of high similarity between AI-generated images and human-crafted images, proposes three classification models, namely custom Convolutional Neural Network, ResNet and Vision Transformer, and analyzes their performance and effectiveness.
+
+As the generative models progress, AI-generated images, which forge the human-crafted images, are widely spread on the Internet, posing artwork copyright infringement and information security challenges. An effective solution would be to develop a highly accurate AI image detector that classifies the AI-generated images and human-crafted images. The architecture behind the detector is a binary classification model, and three different classification models, namely custom Convolutional Neural Network, ResNet and Vision Transformer are presented.
+
+Data has been first collected, extracted, and pre-processed by normalization and augmentation methods. Custom Convolutional Neural Network, mainly composed of 3 blocks of convolutional layers and max-pooling layers, and a 3-fully-connected layers, provide a good accuracy of 93%. For ResNet, it achieves a considerable accuracy of 93%, which is in line with the model performance. For Visual Transformer, it achieves a satisfactory accuracy of 97%, which we believe is capable of providing a reliable suggestion on distinguishing AI-generated images and human-crafted images.
+
+The result shows that all three approaches are robust models for AI-human image classification. It is suggested that deployment to the application and in-depth studies on the dataset could be further explored.
